@@ -1,0 +1,8 @@
+<form class="tools" id="filters">
+  <label>数据来源<select id="sample" name="sample">{% for key, label in samples.items() %}<option value="{{ key }}" {% if sample == key %}selected{% endif %}>{{ label }}</option>{% endfor %}<option value="archive" disabled>已归档数据</option></select></label>
+  <label>召回批号<input id="batch" name="batch" value="CU-041" required maxlength="80" list="lots"><datalist id="lots"></datalist></label>
+  <label>起日<input id="start" type="date" name="start" aria-label="起日"></label>
+  <label>止日<input id="end" type="date" name="end" aria-label="止日"></label>
+  <button class="primary" type="submit">{{ '执行反查' if section == 'recall' else '应用筛选' }}</button>
+  <button type="button" id="save-run">归档本次</button>
+</form>

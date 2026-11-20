@@ -1,0 +1,26 @@
+:root {
+  color-scheme: dark;
+  --bg:#211a16; --rail:#17130f; --panel:#2a211b; --panel-2:#30251d;
+  --line:#47372b; --line-hot:#74523a; --ink:#f3e5d5; --muted:#c8ab95;
+  --accent:#f29b63; --accent-ink:#24150d; --accent-soft:#4b2d20;
+  --ok:#b8cb94; --warn:#ffc07a; --bad:#f6a090;
+  --display:"Songti SC","Noto Serif CJK SC","SimSun",serif;
+  --ui:"PingFang SC","Microsoft YaHei",sans-serif; --mono:"SFMono-Regular",Consolas,monospace;
+  --gap:14px; --row:29px; --rail-width:185px;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:13px/1.5 var(--ui);font-variant-numeric:tabular-nums}
+a{color:var(--accent);text-underline-offset:3px}
+button,input,select{font:inherit;color:inherit;min-width:0}
+button,input,select{border:1px solid var(--line-hot);background:var(--rail);padding:5px 9px;min-height:32px;border-radius:2px}
+button{cursor:pointer;white-space:nowrap}
+button:hover,button:focus-visible{border-color:var(--accent);color:var(--accent)}
+button:disabled{opacity:.6;cursor:wait}
+.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:700}
+.primary:hover,.primary:focus-visible{background:#ffb587;color:var(--accent-ink)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+h1,h2,p{margin:0}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.empty{padding:15px 12px;color:var(--muted)}
+.subtle{color:var(--muted);font-size:11px}
+.error{color:var(--bad)}

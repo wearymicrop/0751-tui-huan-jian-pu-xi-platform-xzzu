@@ -1,0 +1,7 @@
+<aside class="rail">
+  <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">⤴</span><span>退换件谱系台<small>售后部件追溯</small></span></a>
+  <nav aria-label="业务模块">
+    {% for slug, label in sections.items() %}<a href="/board/{{ slug }}?sample={{ sample }}" {% if section == slug %}aria-current="page"{% endif %}><i aria-hidden="true"></i>{{ label }}</a>{% endfor %}
+  </nav>
+  <div class="rail-foot"><i aria-hidden="true"></i>序列件台账</div>
+</aside>

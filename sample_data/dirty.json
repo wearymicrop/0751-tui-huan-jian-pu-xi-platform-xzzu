@@ -1,0 +1,368 @@
+{
+  "as_of": "2026-05-18T08:00:00+08:00",
+  "default_batch": "CU-041",
+  "parts": [
+    {
+      "serial": "0007",
+      "batch": "CU-041",
+      "kind": "触点",
+      "registered": "2026-05-01T08:00:00+08:00"
+    },
+    {
+      "serial": "0008",
+      "batch": "CU-041",
+      "kind": "触点",
+      "registered": "2026-05-01T08:00:00+08:00"
+    },
+    {
+      "serial": "0009",
+      "batch": "CU-041",
+      "kind": "触点",
+      "registered": "2026-05-01T08:00:00+08:00"
+    },
+    {
+      "serial": "DRV-21",
+      "batch": "DV-016",
+      "kind": "驱动组",
+      "registered": "2026-05-01T08:00:00+08:00"
+    },
+    {
+      "serial": "DRV-22",
+      "batch": "DV-017",
+      "kind": "驱动组",
+      "registered": "2026-05-01T08:00:00+08:00"
+    },
+    {
+      "serial": "DRV-23",
+      "batch": "DV-017",
+      "kind": "驱动组",
+      "registered": "2026-05-01T08:00:00+08:00"
+    },
+    {
+      "serial": "UNIT-A",
+      "batch": "UA-060",
+      "kind": "柜组",
+      "registered": "2026-05-01T08:00:00+08:00"
+    },
+    {
+      "serial": "UNIT-B",
+      "batch": "UA-061",
+      "kind": "柜组",
+      "registered": "2026-05-01T08:00:00+08:00"
+    },
+    {
+      "serial": "UNIT-C",
+      "batch": "UA-061",
+      "kind": "柜组",
+      "registered": "2026-05-01T08:00:00+08:00"
+    },
+    {
+      "serial": "FUSE-2",
+      "batch": "FU-103",
+      "kind": "熔丝",
+      "registered": "2026-05-01T08:00:00+08:00"
+    },
+    {
+      "serial": "FUSE-3",
+      "batch": "FU-103",
+      "kind": "熔丝",
+      "registered": "2026-05-01T08:00:00+08:00"
+    },
+    {
+      "serial": "CLIP-1",
+      "batch": "CL-020",
+      "kind": "卡扣",
+      "registered": "2026-05-01T08:00:00+08:00"
+    },
+    {
+      "serial": "CLIP-2",
+      "batch": "CL-021",
+      "kind": "卡扣",
+      "registered": "2026-05-01T08:00:00+08:00"
+    },
+    {
+      "serial": "PANEL-7",
+      "batch": "PN-017",
+      "kind": "面板",
+      "registered": "2026-05-01T08:00:00+08:00"
+    },
+    {
+      "serial": "CASE-8",
+      "batch": "CS-072",
+      "kind": "箱体",
+      "registered": "2026-05-01T08:00:00+08:00"
+    },
+    {
+      "serial": "CASE-9",
+      "batch": "CS-073",
+      "kind": "箱体",
+      "registered": "2026-05-01T08:00:00+08:00"
+    },
+    {
+      "serial": "CASE-9",
+      "batch": "CS-099",
+      "kind": "箱体",
+      "registered": "2026-05-01T08:00:00+08:00"
+    },
+    {
+      "serial": "未知",
+      "batch": "X",
+      "kind": "误录",
+      "registered": "2026-05-01T08:00:00+08:00"
+    }
+  ],
+  "aliases": [
+    {
+      "alias": "TC-07",
+      "serial": "0007"
+    },
+    {
+      "alias": "TC-08",
+      "serial": "0008"
+    },
+    {
+      "alias": "旧驱-21",
+      "serial": "DRV-21"
+    },
+    {
+      "alias": "柜东",
+      "serial": "UNIT-A"
+    },
+    {
+      "alias": "柜西",
+      "serial": "UNIT-B"
+    },
+    {
+      "alias": "柜北",
+      "serial": "UNIT-C"
+    },
+    {
+      "alias": "熔丝三",
+      "serial": "FUSE-3"
+    },
+    {
+      "alias": "共码",
+      "serial": "DRV-21"
+    },
+    {
+      "alias": "共码",
+      "serial": "DRV-22"
+    },
+    {
+      "alias": " ｔｃ－０７ ",
+      "serial": "0007"
+    }
+  ],
+  "returns": [
+    {
+      "ticket": "RT-060",
+      "serial": "TC-07",
+      "action": "return",
+      "at": "2026-05-09T08:00:00+08:00"
+    },
+    {
+      "ticket": "RT-061",
+      "serial": "0008",
+      "action": "return",
+      "at": "2026-05-08T08:00:00+08:00"
+    },
+    {
+      "ticket": "RT-062",
+      "serial": "0008",
+      "action": "restock",
+      "at": "2026-05-10T08:00:00+08:00"
+    },
+    {
+      "ticket": "RT-063",
+      "serial": "FUSE-2",
+      "action": "return",
+      "at": "2026-05-10T08:00:00+08:00"
+    },
+    {
+      "ticket": "RT-064",
+      "serial": "CLIP-1",
+      "action": "return",
+      "at": "2026-05-12T08:00:00+08:00"
+    },
+    {
+      "ticket": "RT-065",
+      "serial": "CLIP-1",
+      "action": "restock",
+      "at": "2026-05-17T08:00:00+08:00"
+    },
+    {
+      "ticket": "RT-060",
+      "serial": "0007",
+      "action": "return",
+      "at": "2026-05-09T08:00:00+08:00"
+    },
+    {
+      "ticket": "RT-099",
+      "serial": "不存在",
+      "action": "return",
+      "at": "2026-05-11T08:00:00+08:00"
+    },
+    {
+      "ticket": "RT-100",
+      "serial": "0009",
+      "action": "return",
+      "at": "2026-05-11T08:00:00+08:00"
+    }
+  ],
+  "events": [
+    {
+      "child": "0007",
+      "parent": "DRV-21",
+      "action": "detach",
+      "revision": 2,
+      "at": "2026-05-08T08:00:00+08:00"
+    },
+    {
+      "child": "DRV-21",
+      "parent": "UNIT-A",
+      "action": "mount",
+      "revision": 1,
+      "at": "2026-05-02T08:00:00+08:00"
+    },
+    {
+      "child": "TC-07",
+      "parent": "旧驱-21",
+      "action": "mount",
+      "revision": 1,
+      "at": "2026-05-03T08:00:00+08:00"
+    },
+    {
+      "child": "DRV-21",
+      "parent": "UNIT-A",
+      "action": "detach",
+      "revision": 2,
+      "at": "2026-05-05T08:00:00+08:00"
+    },
+    {
+      "child": "DRV-21",
+      "parent": "UNIT-B",
+      "action": "mount",
+      "revision": 3,
+      "at": "2026-05-05T08:00:00+08:00"
+    },
+    {
+      "child": "0008",
+      "parent": "DRV-22",
+      "action": "mount",
+      "revision": 1,
+      "at": "2026-05-06T08:00:00+08:00"
+    },
+    {
+      "child": "0008",
+      "parent": "DRV-22",
+      "action": "detach",
+      "revision": 2,
+      "at": "2026-05-07T08:00:00+08:00"
+    },
+    {
+      "child": "DRV-22",
+      "parent": "UNIT-C",
+      "action": "mount",
+      "revision": 1,
+      "at": "2026-05-08T08:00:00+08:00"
+    },
+    {
+      "child": "0009",
+      "parent": "DRV-23",
+      "action": "mount",
+      "revision": 1,
+      "at": "2026-05-09T08:00:00+08:00"
+    },
+    {
+      "child": "DRV-23",
+      "parent": "UNIT-B",
+      "action": "mount",
+      "revision": 1,
+      "at": "2026-05-10T08:00:00+08:00"
+    },
+    {
+      "child": "FUSE-2",
+      "parent": "PANEL-7",
+      "action": "mount",
+      "revision": 1,
+      "at": "2026-05-03T08:00:00+08:00"
+    },
+    {
+      "child": "FUSE-2",
+      "parent": "PANEL-7",
+      "action": "detach",
+      "revision": 2,
+      "at": "2026-05-09T08:00:00+08:00"
+    },
+    {
+      "child": "CLIP-1",
+      "parent": "CASE-8",
+      "action": "mount",
+      "revision": 1,
+      "at": "2026-05-03T08:00:00+08:00"
+    },
+    {
+      "child": "CLIP-1",
+      "parent": "CASE-8",
+      "action": "detach",
+      "revision": 2,
+      "at": "2026-05-11T08:00:00+08:00"
+    },
+    {
+      "child": "CLIP-2",
+      "parent": "CASE-9",
+      "action": "mount",
+      "revision": 1,
+      "at": "2026-05-12T08:00:00+08:00"
+    },
+    {
+      "child": "FUSE-3",
+      "parent": "PANEL-7",
+      "action": "mount",
+      "revision": 1,
+      "at": "2026-05-21T08:00:00+08:00"
+    },
+    {
+      "child": "0007",
+      "parent": "DRV-22",
+      "action": "mount",
+      "revision": 1,
+      "at": "2026-05-12T08:00:00+08:00"
+    },
+    {
+      "child": "柜西",
+      "parent": "DRV-23",
+      "action": "mount",
+      "revision": 1,
+      "at": "2026-05-12T08:00:00+08:00"
+    },
+    {
+      "child": "0009",
+      "parent": "UNIT-C",
+      "action": "mount",
+      "revision": 2,
+      "at": "2026-05-13T08:00:00+08:00"
+    },
+    {
+      "child": "旧驱-21",
+      "parent": "DRV-21",
+      "action": "mount",
+      "revision": 4,
+      "at": "2026-05-13T08:00:00+08:00"
+    },
+    {
+      "child": "TC-08",
+      "parent": "共码",
+      "action": "mount",
+      "revision": 3,
+      "at": "2026-05-14T08:00:00+08:00"
+    },
+    {
+      "child": "FUSE-3",
+      "parent": "CASE-8",
+      "action": "mount",
+      "revision": "N/A",
+      "at": "2026-05-15T08:00:00+08:00"
+    }
+  ]
+}

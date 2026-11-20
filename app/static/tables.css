@@ -1,0 +1,9 @@
+.table-scroll{overflow:auto;max-height:410px}
+.ledger{border-collapse:collapse;width:100%;font-size:12px}
+.ledger th,.ledger td{height:var(--row);padding:4px 9px;text-align:left;white-space:nowrap;border-bottom:1px solid var(--line)}
+.ledger th{position:sticky;top:0;background:var(--rail);color:var(--muted)}.ledger tbody tr:hover{background:var(--panel-2)}
+.ledger .num{text-align:right;font-family:var(--mono)}.ledger button{border:0;padding:0;min-height:auto;text-decoration:underline;background:none;color:var(--accent)}
+.report-notes{max-height:240px;overflow:auto;padding:8px 12px;color:var(--muted)}
+.report-notes h3{font-size:12px;margin:2px 0 6px;color:var(--ink)}.report-notes ul{padding-left:17px;margin:0 0 6px}
+.upload-form,.archive-list{padding:10px 12px}.upload-form{display:flex;gap:8px;flex-wrap:wrap;border-bottom:1px solid var(--line)}.upload-form input{max-width:100%}
+.archive-row{display:flex;gap:9px;align-items:center;flex-wrap:wrap;padding:7px 0;border-bottom:1px solid var(--line)}.archive-row small{color:var(--muted)}.archive-row a:first-child{font-family:var(--mono)}

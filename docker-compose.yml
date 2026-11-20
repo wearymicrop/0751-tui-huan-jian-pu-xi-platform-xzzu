@@ -1,0 +1,16 @@
+services:
+  app:
+    build: .
+    ports:
+      - "${PORT:-18445}:8000"
+    environment:
+      LINEAGE_DB: /data/lineage.sqlite3
+    volumes:
+      - archive:/data
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health')"]
+      interval: 10s
+      timeout: 4s
+      retries: 5
+volumes:
+  archive:

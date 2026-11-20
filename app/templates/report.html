@@ -1,0 +1,5 @@
+<section class="panel">
+  <header class="panel-head"><h2>{{ table[0] }}</h2><span id="report-count" class="subtle"></span></header>
+  <div class="table-scroll"><table class="ledger" id="report-table" data-key="{{ table[1] }}"><thead><tr>{% for field,label in table[2] %}<th scope="col" data-field="{{ field }}">{{ label }}</th>{% endfor %}</tr></thead><tbody></tbody></table></div>
+  <div id="report-notes" class="report-notes"></div>
+</section>
